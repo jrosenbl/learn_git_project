@@ -22,11 +22,13 @@ git fetch # retrieve remote project but don't merge
 git pull  # retrieve branch and merge
 
 git tag # list tags
+git tag -n # list tags + messages
 git tag -l 'v1.*' # search for tags matching
 git tag -a <tag> -m "<tag description>" # create tag
 git show <tag> # show tag data and associated commit
 git tag <tag> # create a lightweight tag
 git tag -a <tag> -m "<tag descr>" <commit checksum starts-with>
+git tag <tag> <tag> -f -a # edit tag message using editor
 git push origin <tag> # share specific tag with remote
 git push origin --tags # share all tags with remote
 
