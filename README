@@ -1,4 +1,5 @@
-this is my first Git project.  I will use it to learn a little bit about git.  A git bit is what I will learn by using this project.
+this is my first Git project.  I will use it to learn a little bit about git.  
+A git bit is what I will learn by using this project.
 
 so far I've learned about the following commands
 
@@ -11,3 +12,13 @@ git diff --cache
 git commit
 git commit -m "update description"
 git commit -a  # commit all tracked files
+
+git remote # list remote servers (short names only)
+git remote -v # verbose list remote repositories (show urls)
+git remote add <short name> <url> 
+
+git clone <url> # create local master
+git fetch # retrieve remote project but don't merge
+git pull  # retrieve branch and merge
+
+
