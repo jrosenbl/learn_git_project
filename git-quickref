@@ -5,7 +5,9 @@ so far I've learned about the following commands
 
 git config
 git config --list
-git add
+git add . # add all new files
+git add -u # updates tracking for files that changed names or were deleted
+git add -A # does both of the previous
 git status
 git diff
 git diff --cache
