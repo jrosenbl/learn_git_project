@@ -32,6 +32,7 @@ git remote add origin https://github.com/<username>/<repo name>.git # link local
 git clone <url> # create local master
 git fetch # retrieve remote project but don't merge
 git pull  # retrieve branch and merge
+git push <remote server> <branch> #
 
 ## tags
 git tag # list tags
