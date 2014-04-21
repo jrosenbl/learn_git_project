@@ -1,8 +1,14 @@
-this is my first Git project.  I will use it to learn a little bit about git.  
-A git bit is what I will learn by using this project.
+Git Quick Reference
+===================
+This is my first Git project.  I will use it to learn a little bit about git. A git bit is what I will learn by using this project.
+
+todo: convert to markdown format.  see the following resources for markdown
+* [introduction to markdown](http://daringfireball.net/projects/markdown)
+* [using markdown in rstudio](http://www.rstudio.com/ide/docs/authoring/using_markdown)
 
 so far I've learned about the following commands
-
+## getting started
+git init  # create local repository
 git config
 git config --list
 git add . # add all new files
@@ -14,15 +20,15 @@ git diff --cache
 git commit
 git commit -m "update description"
 git commit -a  # commit all tracked files
-
+## remote servers
 git remote # list remote servers (short names only)
 git remote -v # verbose list remote repositories (show urls)
 git remote add <short name> <url> 
-
+## push/pull
 git clone <url> # create local master
 git fetch # retrieve remote project but don't merge
 git pull  # retrieve branch and merge
-
+## tags
 git tag # list tags
 git tag -n # list tags + messages
 git tag -l 'v1.*' # search for tags matching
@@ -33,7 +39,7 @@ git tag -a <tag> -m "<tag descr>" <commit checksum starts-with>
 git tag <tag> <tag> -f -a # edit tag message using editor
 git push origin <tag> # share specific tag with remote
 git push origin --tags # share all tags with remote
-
+## branches
 git checkout -b <branch name> # create a new branch (copy of master)
 git branch # list branches with current branch starred
 git checkout master # make 'master' the current branch
