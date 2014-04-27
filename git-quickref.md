@@ -9,9 +9,9 @@ todo: convert to markdown format.  see the following resources for markdown
 So far I've learned about the following commands
 
 ## getting started
-git init  # create local repository
-git config
-git config --list
+* git init  # create local repository
+* git config
+* git config --list
 git add . # add all new files
 git add -u # updates tracking for files that changed names or were deleted
 git add -A # does both of the previous
