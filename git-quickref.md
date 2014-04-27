@@ -55,3 +55,7 @@ git push origin --tags # share all tags with remote
 git checkout -b <branch name> # create a new branch (copy of master)  
 git branch # list branches with current branch starred  
 git checkout master # make 'master' the current branch  
+
+## under the hood
+git ls-file --stage # list files in the index (i.e. staged)  
+git cat-file <file hash>  
