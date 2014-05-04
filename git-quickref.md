@@ -19,7 +19,7 @@ git rm <file> # remove a file
 git rm --cached <file> # unstages the file without deleting it  
 git status  
 git diff  # displays changes in working dir but not staged  
-git diff --cache # displays changes that are staged (and will go into next commit)  
+git diff --cached # displays changes that are staged (and will go into next commit)  
 git commit  
 git commit -m "update description"  
 git commit -a  # commit all tracked files  
